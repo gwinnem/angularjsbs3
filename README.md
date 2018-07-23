@@ -5,16 +5,12 @@ Welcome to the first public driven AngularJs Amin template.
 **ABAdmin AngularJsBs3** -- is a fully responsive admin template. Based on the **[Bootstrap 3](https://github.com/twbs/bootstrap)** frameworks.
 Highly customizable and easy to use. Fits many screen resolutions from small mobile devices to large desktops. Check out the live preview now and see for yourself.
 
-**Download & Preview on [AdminLTE.IO](https://adminlte.io)**
-
 ### Looking for Premium Templates?
-**AdminLTE.IO just opened a new premium templates website. Hand picked to ensure the best quality and the most affordable prices. Visit https://themequarry.com for more information.**
+** Coming soon
 
-## Documentation & Installation Guide
-Visit the [online documentation](https://adminlte.io/docs) for the most
-updated guide.
+### Documentation & Installation Guide
+**Coming soon
 
-!["AdminLTE Presentation"](https://adminlte.io/AdminLTE2.png "AdminLTE Presentation")
 
 ### Contribution
 Contribution are always **welcome and recommended**! Here is how:
@@ -36,12 +32,7 @@ The template is an open source project by [Geirr Winnem](https://www.creativegei
 reserves the right to change the license of future releases.
 
 ### Change log
-**For the most recent change log, visit the [releases page](https://github.com/almasaeed2010/AdminLTE/releases) or the [changelog file](https://github.com/almasaeed2010/AdminLTE/blob/master/changelog.md).** We will add detailed release notes to each new release. 
+**For the most recent change log, visit the [releases page](https://github.com/gwinnem/angularjsbs3/releases) or the [changelog file](https://github.com/gwinnem/angularjsbs3/blob/master/changelog.md).** We will add detailed release notes to each new release. 
 
-### Image Credits
-- [Pixeden](http://www.pixeden.com/psd-web-elements/flat-responsive-showcase-psd)
-- [Graphicsfuel](http://www.graphicsfuel.com/2013/02/13-high-resolution-blur-backgrounds/)
-- [Pickaface](http://pickaface.net/)
-- [Unsplash](https://unsplash.com/)
-- [Uifaces](http://uifaces.com/)
+### Credits
 

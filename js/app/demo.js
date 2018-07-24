@@ -10,8 +10,6 @@ $(function () {
     /**
      * Get access to plugins
      */
-
-    var $alayout = $.fn.layout;
     $('[data-toggle="control-sidebar"]').controlSidebar();
     $('[data-toggle="push-menu"]').pushMenu();
     var $pushMenu = $('[data-toggle="push-menu"]').data('ab.pushmenu');
@@ -116,6 +114,7 @@ $(function () {
         // Add the change skin listener
         $('[data-skin]').on('click', function (e) {
             e.preventDefault();
+            // TODO change to ab.skin ??
             changeSkin($(this).data('skin'));
         });
 
@@ -165,7 +164,7 @@ $(function () {
 
     }
 
-    // Create the new tab
+    // Create the new settings tab
     var $tabPane = $('<div />', {
         'id': 'control-sidebar-theme-demo-options-tab',
         'class': 'tab-pane active'

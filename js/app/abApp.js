@@ -2,7 +2,7 @@
  * Aurora Borealis Admin Template app
  * @author Geirr Winnem
  * @version 0.2.0
- * @summary Angular 1.x admin dashboard template.
+ * @summary Angular 1.x Bootstrap 3 admin dashboard template.
  */
 
 var abApp = angular.module("aurora", [
@@ -78,7 +78,7 @@ abApp.config([
             .state("home", {
                 url: "/welcome",
                 templateUrl: "pages/welcome.html",
-                pageTitle: "ABAdmin AngularJs Free Version",
+                pageTitle: "AngularJs Bootstrap 3 Free Version",
                 pageBreadCrumbs: [{
                     name: "Home"
                 }, {
@@ -2298,6 +2298,20 @@ abApp.config([
 
 
             // Miscellaneous
+            
+            // Static filemanager
+            .state("staticfilemanager", {
+                url: "/miscellaneous/filemanager",
+                templateUrl: "pages/misc/staticfilemanager.html",
+                pageTitle: "Static Filemanager",
+                pageBreadCrumbs: [{
+                    name: "Home"
+                }, {
+                    name: "Miscellaneous"
+                }, {
+                    name: "Static Filemanager"
+                }]
+            })
 
             //Social buttons
             .state("socialbuttons", {

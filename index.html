@@ -215,7 +215,7 @@
     </style>
 </head>
 
-<body ng-app="aurora" class="skin-blue-light sidebar-mini" ng-cloak ng-controller="mainController">
+<body ng-app="aurora" class="skin-red sidebar-mini" ng-cloak ng-controller="mainController">
     <div class="loading">
         <div class="loading-bar"></div>
         <div class="loading-bar"></div>
@@ -1263,6 +1263,12 @@
                             </a>
                             <ul class="treeview-menu">
                                 <li>
+                                    <a ui-sref="staticfilemanager" href="javascript:">
+                                        Static Filemanager
+                                        <span class="label label-success pull-right">NEW</span>
+                                    </a>
+                                </li>
+                                <li>
                                     <a ui-sref="socialbuttons" href="javascript:">
                                         Social Buttons
                                         <span class="label label-primary pull-right">26</span>
@@ -1481,14 +1487,17 @@
         <!-- / Footer -->
 
         <!-- Control Sidebar -->
-        <aside class="control-sidebar control-sidebar-dark">
+        <aside class="control-sidebar control-sidebar-light">
             <!-- Create the tabs -->
             <ul class="nav nav-tabs nav-justified control-sidebar-tabs">
+                <!-- First tab is injected via the demo.js file-->
+                <!-- Tab 2 -->
                 <li>
                     <a href="#control-sidebar-home-tab" data-toggle="tab">
                         <i class="fa fa-home"></i>
                     </a>
                 </li>
+                <!-- Tab 3 -->
                 <li>
                     <a href="#control-sidebar-settings-tab" data-toggle="tab">
                         <i class="fa fa-gears"></i>
@@ -1497,7 +1506,7 @@
             </ul>
             <!-- Tab panes -->
             <div class="tab-content">
-                <!-- Home tab content -->
+                <!-- Tab 2 tab content -->
                 <div class="tab-pane" id="control-sidebar-home-tab">
                     <h3 class="control-sidebar-heading">Recent Activity</h3>
                     <ul class="control-sidebar-menu">
@@ -1590,7 +1599,7 @@
                     <!-- /.control-sidebar-menu -->
                 </div>
                 <!-- /.tab-pane -->
-                <!-- Settings tab content -->
+                <!-- Tab 3 tab content -->
                 <div class="tab-pane" id="control-sidebar-settings-tab">
                     <form method="post">
                         <h3 class="control-sidebar-heading">General Settings</h3>
@@ -1664,8 +1673,7 @@
             </div>
         </aside>
         <!-- /.control-sidebar -->
-        <!-- Add the sidebar's background. This div must be placed
-       immediately after the control sidebar -->
+        <!-- Add the sidebar's background. This div must be placed immediately after the control sidebar -->
         <div class="control-sidebar-bg"></div>
         <!-- / Control Sidebar -->
         <!-- Return to Top -->
@@ -1681,15 +1689,15 @@
     <script>
         // ===== Scroll to Top ====
         $(window).scroll(function () {
-            if ($(this).scrollTop() >= 50) { // If page is scrolled more than 50px
-                $('#return-to-top').fadeIn(400); // Fade in the arrow
+            if ($(this).scrollTop() >= 50) {
+                $('#return-to-top').fadeIn(400);
             } else {
-                $('#return-to-top').fadeOut(400); // Else fade out the arrow
+                $('#return-to-top').fadeOut(400);
             }
         });
-        $('#return-to-top').click(function () { // When arrow is clicked
+        $('#return-to-top').click(function () {
             $('body,html').animate({
-                scrollTop: 0 // Scroll to top of body
+                scrollTop: 0
             }, 600);
         });
     </script>
